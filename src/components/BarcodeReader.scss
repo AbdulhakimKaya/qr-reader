@@ -1,0 +1,85 @@
+.barcode-reader {
+  text-align: center;
+  margin-top: 20px;
+
+  h2 {
+    color: lightgray;
+  }
+
+  &-scanner {
+    &-camera {
+      width: 320px;
+      height: 320px;
+      margin: 0 auto;
+    }
+
+    &-buttons {
+      display: flex;
+      flex-direction: column;
+
+      &-toggle {
+        padding: 12px 16px;
+        margin: 8px;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        border: 1px solid gray;
+        background-color: lightgray;
+        border-radius: 8px;
+      }
+
+      &-close {
+        padding: 12px 16px;
+        margin: 8px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        border: 1px solid darkred;
+        background-color: red;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  &-button {
+    button {
+      padding: 12px 16px;
+      margin: 8px;
+      color: black;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid darkred;
+      background-color: white;
+      border-radius: 8px;
+    }
+  }
+  
+  &-data {
+    max-width: 800px;
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: lightgray;
+    word-break: break-word;
+
+    p {
+     font-size: 18px;
+      font-weight: 500;
+    }
+
+    &-copy {
+      margin-top: 10px;
+      padding: 8px 12px;
+      background-color: orange;
+      color: white;
+      border: 1px solid darkorange;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+  }
+}
